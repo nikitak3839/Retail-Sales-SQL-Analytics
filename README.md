@@ -1,21 +1,21 @@
 # Retail Sales Data Analytics Project (SQL)
 
-## Описание проекта
-В данном проекте я реализовал полный цикл работы с данными для E-commerce платформы: от проектирования схемы базы данных до написания сложных аналитических отчетов.
+## Project Description
+In this project, I implemented a full cycle of data management for an e-commerce platform: from database schema design to writing complex analytical reports.
 
-## Технологии
-* **БД:** MySQL
-* **Инструментарий:** MySQL Workbench
-* **SQL Skills:** DDL (создание таблиц), DML (наполнение данными), Joins (Inner, Left), Агрегатные функции (SUM, AVG), Группировки (GROUP BY).
+## Technologies
+* **DB:** MySQL
+* **Tools:** MySQL Workbench
+* **SQL Skills:** DDL (table creation), DML (data populating), Joins (Inner, Left), Aggregate functions (SUM, AVG), Grouping (GROUP BY).
 
-## Структура базы данных
-Для проекта была спроектирована схема, включающая таблицы клиентов, товаров и заказов с настроенными связями (Foreign Keys).
+## Database Structure
+A schema was designed for the project, including tables for customers, products, and orders with configured relationships (Foreign Keys).
 
 ![Схема базы данных](./retail_db_schema.png.png)
 
-## Ключевые отчеты
-1. **Анализ выручки по городам:** Позволил определить наиболее прибыльные регионы.
-2. **Эффективность товаров:** Выявлены лидеры продаж по сумме выручки.
-3. **Анализ неликвидных товаров:** С помощью `LEFT JOIN` обнаружены товары, которые не имели продаж, что важно для оптимизации склада.
+## Key Reports
+1. Revenue Analysis by City: Allowed us to identify the most profitable regions.
+2. Product Performance: Identified top sellers by revenue.
+3. Slow-Selling Product Analysis: Using LEFT JOIN, we identified products that had no sales, which is important for warehouse optimization.
 
 ![Анализ продаж](./retail_city_revenue_report.png.png)
